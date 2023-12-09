@@ -23,7 +23,7 @@ def max_indep_set(g):
     return ret
 
 
-def rlf (g):
+def rlf(g):
     q=g.copy()
     color_dict=dict()
     num=0
